@@ -30,6 +30,7 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 88px;
     text-align: center;
+    margin-bottom: 117px;
 }
 
 .hero-text h1 {
@@ -82,4 +83,58 @@ a {
 .hero__btn-right {
     background: #855FB1;
     padding: 16px 30px;
+}
+
+.item1 {
+    width: 56px;
+    margin: 0 auto 64px;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 30px;
+    text-align: center;
+    width: 1110px;
+    margin: 0 auto 80px;
+}
+
+.grid-images img {
+    border-radius: 8px;
+}
+
+section.build {
+    width: 540px;
+    margin: 0 auto 72px;
+    text-align: center;
+}
+
+section.build h3 {
+    color: #4D96A9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 4px;
+    margin: 0 auto 16px;
+    text-transform: uppercase;
+}
+
+section.build h2 {
+    color: #28283D;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    width: 445px;
+    margin: 0 auto 32px;
+}
+
+section.build h5 {
+    color: #87879D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 540px;
 }
