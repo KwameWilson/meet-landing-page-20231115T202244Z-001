@@ -10,6 +10,7 @@ body {
     color: #87879D;
     background: #FAFAFA;
     font-family: "Red Hat Display";
+    position: relative;
 }
 
 span {
@@ -78,6 +79,10 @@ a {
 .hero__btn-left span {
     /* border: 2px solid red; */
     color: #8FE3F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
 }
 
 .hero__btn-right {
@@ -137,4 +142,70 @@ section.build h5 {
     font-weight: 500;
     line-height: 26px;
     width: 540px;
+}
+
+.item-2 {
+    width: 56px;
+    margin: 0 auto;
+}
+
+.grid {
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 92px;
+    height: 308px;
+    background: #4D96A9 url(../images/bg-footer.png);
+    padding: 105px 165px;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    bottom: -275px;
+    z-index: -1;
+}
+
+.grid h2 {
+    color: #FAFAFA;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 44px;
+    margin: 0 auto;
+    width: 350px;
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 92px;
+
+}
+
+.flex h5 {
+    color: #FAFAFA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.flex div:nth-child(2) {
+    width: 193px;
+    height: 58px;
+    margin: 0 auto;
+}
+
+.btn-bottom {
+    background: #855FB1;
+}
+
+.btn-bottom span {
+    /* border: 2px solid red; */
+    color: #D9B8FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
 }
