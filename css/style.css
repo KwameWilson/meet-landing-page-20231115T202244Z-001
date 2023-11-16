@@ -32,6 +32,8 @@ img {
     gap: 88px;
     text-align: center;
     margin-bottom: 117px;
+    width: 1504px;
+    margin: 0 auto;
 }
 
 .hero-text h1 {
